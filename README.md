@@ -313,7 +313,7 @@ opentofudemo/
 ├── Makefile                   # Convenient make targets
 ├── .tenv.tofu.version         # OpenTofu version (1.8.8)
 ├── terramate.tm.hcl           # Terramate root config
-├── terragrunt.hcl             # Terragrunt root config
+├── root.hcl                   # Terragrunt root config
 ├── atlantis.yaml              # Atlantis configuration
 ├── atlantis-repos.yaml        # Atlantis repo settings
 ├── scripts/

@@ -1,7 +1,7 @@
 # Terragrunt configuration for Team B stack
 
 include "root" {
-  path = find_in_parent_folders()
+  path = find_in_parent_folders("root.hcl")
 }
 
 # Dependency on vcluster
