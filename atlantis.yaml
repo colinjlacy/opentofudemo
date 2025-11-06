@@ -7,24 +7,6 @@ projects:
     when_modified:
     - '*.hcl'
     - '*.tf*'
-  dir: .
-- autoplan:
-    enabled: true
-    when_modified:
-    - '*.hcl'
-    - '*.tf*'
-  dir: .
-- autoplan:
-    enabled: true
-    when_modified:
-    - '*.hcl'
-    - '*.tf*'
-  dir: .terragrunt-cache/4wqgzfA6h3f_eeEqx9ubP8OoXPE/H1JKhfZRo9EuERiXSw6iDa7WLLg
-- autoplan:
-    enabled: true
-    when_modified:
-    - '*.hcl'
-    - '*.tf*'
     - ../../../root.hcl
     - ../../../*.tf*
   dir: stacks/platform/kind-cluster
